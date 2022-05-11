@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.upu.lcgujiansekolahkepsek.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+    </fragment>
+    <fragment
+        android:id="@+id/nav_data_ujian"
+        android:name="com.upu.lcgujiansekolahkepsek.ui.DataUjian.DataUjianFragment"
+        android:label="Data ujian"
+        tools:layout="@layout/data_ujian_fragment">
+    </fragment>
+    <activity
+        android:id="@+id/nav_data_guru"
+        android:name="com.upu.lcgujiansekolahkepsek.ui.DataGuru.DataGuruActivity"
+        android:label="Data Guru"
+        tools:layout="@layout/activity_data_guru"/>
+
+    <activity
+        android:id="@+id/nav_data_siswa"
+        android:name="com.upu.lcgujiansekolahkepsek.ui.DataSiswa.DataSiswaActivity"
+        android:label="Data Siswa"
+        tools:layout="@layout/activity_data_siswa"/>
+
+</navigation>

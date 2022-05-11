@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_bank_soal">
+
+    <fragment
+        android:id="@+id/nav_bank_soal"
+        android:name="com.upu.lcgujiansekolahguru.ui.soal.KategoriSoalFragment"
+        android:label="Bank Soal"
+        tools:layout="@layout/kategori_soal_fragment">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_nilai_siswa"
+        android:name="com.upu.lcgujiansekolahguru.ui.nilai_siswa.KategoriUjianNilaiSiswaFragment"
+        android:label="Nilai Siswa"
+        tools:layout="@layout/kategori_ujian_nilai_siswa_fragment">
+
+    </fragment>
+
+</navigation>
