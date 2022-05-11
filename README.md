@@ -1,2 +1,8 @@
 # LCG-Aplikasi Ujian Sekolah
- Linear Congruential Generator
+ Implementasi algoritma Linear Congruential Generator pada sistem pengacakan soal ujian sekolah.
+ 
+ Users Role :
+ - Administrator
+ - Kepala Sekolah
+ - Guru
+ - Siswa
